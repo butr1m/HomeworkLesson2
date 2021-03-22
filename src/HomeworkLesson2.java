@@ -11,13 +11,9 @@ public class HomeworkLesson2 {
             boolean monthBiggerDay=monthOfBirthday>dayOfBirthday;
             System.out.println("Месяц поего рождения больше даты моего рождения:"+monthBiggerDay);
 
-            char[] name={'А','л','е','к','с','а','н','д','р'};
-            //System.out.println(name);
+            char[] name={'А','л','е','к','с','а','н','д','р'};;
             for(int i=0; i<name.length;i++){
-                int n;
-                n=name[i];
-                System.out.print(n+" ");
-                n++;
+                System.out.print(name[i]);
             }
 
             System.out.println();
